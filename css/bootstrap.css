@@ -6118,16 +6118,14 @@ a.badge:focus {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 300px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  color: inherit;
-  background-color: #eeeeee;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  color: white;
+  background:url('http://farm7.staticflickr.com/6194/6113990317_ec32b69a65_o.jpg') no-repeat top center;
+  background-size:1920px 1280px;
 }
 
 .hero-unit h1 {
@@ -6136,6 +6134,12 @@ a.badge:focus {
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
+  text-shadow: black 0 0 10px;
+}
+
+.hero-unit p {
+  text-shadow: black 0 0 10px;
+  font-weight: bold;
 }
 
 .hero-unit li {
