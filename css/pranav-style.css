@@ -1,8 +1,8 @@
 
 
 body {
-  background: #034;
-  color:white;
+  background: #white;
+  color:#333;
 }
 
 .logo {
@@ -10,8 +10,6 @@ body {
 }
 
 .top-menu {
-  background: #034;
-  color: #ddd;
   font-size: 18px;
   padding-top: 30px;
   padding-bottom:-10px;
@@ -22,11 +20,10 @@ body {
 }
 
 .logo a {
-  color: white;
+  color: black;
 }
 
 .top-menu .container ul li a {
-  color:#ddd;
 }
 
 .grill-bg {
