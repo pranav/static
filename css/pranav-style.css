@@ -15,10 +15,6 @@ body {
   padding-bottom:-10px;
 }
 
-.container-container {
-  background: linear-gradient(#fefcea 0%, #f1da36 100%);
-}
-
 .logo a {
   color: black;
 }
@@ -38,6 +34,11 @@ body {
   background-size:1920px 1280px;
 }
 
+.cone-bg {
+  background:url('../img/cone.gif') no-repeat fixed 90% 70%;
+  background-size: 2560px 2560px;
+}
+
 .span4 > img {
   margin:25px auto 0 auto;
   border:solid #888 1px;
@@ -52,15 +53,17 @@ body {
   text-align:center;
 }
 
+
 .hook {
-  background: url('https://a248.e.akamai.net/assets.github.com/images/modules/home/octicons-bg.png') #333;
-  background-color: rgba(51,51,51, 0.9);
-  padding: 25px;
+  color:white;
+  padding: 50px 0 0 0;
   width: 775px;
   border-radius:5px;
 }
 
-
+.hook > h1 {
+  color: black;
+}
 
 
 
