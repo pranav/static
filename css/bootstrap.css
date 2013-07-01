@@ -6135,14 +6135,13 @@ a.badge:focus {
 }
 
 .hero-unit p {
-  text-shadow: black 0 0 10px;
+  text-shadow: black 0 0 5px;
   font-weight: bold;
 }
 
 .hero-unit li {
   line-height: 30px;
 }
-
 
 .pull-right {
   float: right;

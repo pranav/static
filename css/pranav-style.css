@@ -23,7 +23,14 @@ body {
   color: black;
 }
 
-.top-menu .container ul li a {
+.jradmer-bg {
+  background: url('http://farm9.staticflickr.com/8096/8429144428_53c949d1e6_o.jpg') 50% 80%;
+  background-size: 1920px 2880px;
+}
+
+.ice-cream-bg {
+  background: url('http://farm9.staticflickr.com/8323/8428052543_4ae86fd23c_o.jpg') 50% 80%;
+  background-size: 1920px 1280px;
 }
 
 .grill-bg {
@@ -31,3 +38,16 @@ body {
   background-size:1920px 1280px;
 }
 
+.span4 > img {
+  margin:25px auto 0 auto;
+  border:solid #888 1px;
+}
+
+.span3 > img {
+  margin:25px auto 0 auto;
+  border:solid #888 1px;
+}
+
+.sub-landing > .span4 {
+  text-align:center;
+}
