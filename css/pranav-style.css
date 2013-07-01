@@ -39,16 +39,6 @@ body {
   background-size: 2560px 2560px;
 }
 
-.span4 > img {
-  margin:25px auto 0 auto;
-  border:solid #888 1px;
-}
-
-.span3 > img {
-  margin:25px auto 0 auto;
-  border:solid #888 1px;
-}
-
 .sub-landing > .span4 {
   text-align:center;
 }
