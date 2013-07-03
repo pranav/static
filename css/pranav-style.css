@@ -1,14 +1,68 @@
 
+body {
+  background: white;
+  color:#333;
+}
 
 .logo {
-	font-size:36px;
-	color: #08c;
+  font-size:36px;
 }
 
 .top-menu {
-	background: #034;
-	color: #ddd;
-	font-size: 18px;
-	padding-top: 30px;
-	padding-bottom:-10px;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom:-10px;
 }
+
+.logo a {
+  color: black;
+}
+
+.jradmer-bg {
+  background: url('http://farm9.staticflickr.com/8096/8429144428_53c949d1e6_o.jpg') 50% 80%;
+  background-size: 1920px 2880px;
+}
+
+.ice-cream-bg {
+  background: url('http://farm9.staticflickr.com/8323/8428052543_4ae86fd23c_o.jpg') 50% 80%;
+  background-size: 1920px 1280px;
+}
+
+.grill-bg {
+  background:url('http://farm7.staticflickr.com/6194/6113990317_ec32b69a65_o.jpg') no-repeat 50% 30%;
+  background-size:1920px 1280px;
+}
+
+.cone-bg {
+  background:url('../img/cone.gif') no-repeat fixed 90% 70% white;
+  background-size: 2560px 2560px;
+}
+
+.sub-landing > .span4 {
+  text-align:center;
+}
+
+
+.hook {
+  color:white;
+  padding: 50px 0 0 0;
+  width: 775px;
+  border-radius:5px;
+}
+
+.hook > h1 {
+  color: black;
+}
+
+.gray-box {
+  border-radius: 5px;
+  padding:10px;
+  margin-left: -10px;
+}
+
+.gray-box:last {
+  margin-left:0;
+}
+
+
+
