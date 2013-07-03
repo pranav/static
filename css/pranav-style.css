@@ -1,7 +1,6 @@
 
-
 body {
-  background: #white;
+  background: white;
   color:#333;
 }
 
@@ -35,7 +34,7 @@ body {
 }
 
 .cone-bg {
-  background:url('../img/cone.gif') no-repeat fixed 90% 70%;
+  background:url('../img/cone.gif') no-repeat fixed 90% 70% white;
   background-size: 2560px 2560px;
 }
 
@@ -55,7 +54,15 @@ body {
   color: black;
 }
 
+.gray-box {
+  border-radius: 5px;
+  padding:10px;
+  margin-left: -10px;
+}
 
+.gray-box:last {
+  margin-left:0;
+}
 
 
 
